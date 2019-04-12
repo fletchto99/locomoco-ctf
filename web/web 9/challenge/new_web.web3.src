@@ -1,0 +1,7 @@
+let a = 1;
+let b = 2;
+if (a == b) {
+  alert("flag{javascript-0bfusction}");
+} else {
+  alert("Error loading newweb source! Uh oh :(");
+}
