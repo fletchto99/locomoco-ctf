@@ -5,6 +5,7 @@ Locomocosec CTF
 
 [Who owns this site?](https://github.com/fletchto99/locomoco-ctf/tree/master/recon/recon%201)
 [We're transparent](https://github.com/fletchto99/locomoco-ctf/tree/master/recon/recon%202)
+[Keep on Digging](https://github.com/fletchto99/locomoco-ctf/tree/master/recon/recon%203)
 
 ## Reverse
 
