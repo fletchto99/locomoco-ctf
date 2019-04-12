@@ -1,0 +1,9 @@
+extends ../layout_auth
+
+append content
+    if admin
+        h2 Congrats you found the CSRF to change the admin password! flag{csrf-is-dangerous}
+    h2 Hello !{fname} !{lname}
+    p Welcome to the employee dashboard. Here you can send messages to the administrator as well as modify your profile. We like to keep it simple for our employees to use!
+    if xss
+        script alert("flag{you-found-the-xss}")

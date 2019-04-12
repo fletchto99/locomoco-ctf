@@ -1,0 +1,21 @@
+extends ../layout_reg
+
+append content
+    if error
+        h1=error
+    form(name="login", method="post")
+        div.form-group
+            div.input
+                label(for="username") Username
+                input.form-control(type="text", name="username", id="username")
+        div.form-group
+            div.input
+                label(for="password") Password
+                input.form-control(type="password", name="password", id="password")
+        if redirect
+            input.form-control(type="hidden", name="redirect", id="redirect" value=`${redirect}`)
+        div.row
+            div.col-sm-4
+                button.btn.btn-primary.btn-block.center-block(type="submit") Login
+            div.col-sm-4
+                    a.btn.btn-info.center-block(href="/") Back

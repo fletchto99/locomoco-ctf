@@ -1,0 +1,14 @@
+web:
+  container_name: ctf_web
+  build: ./web/
+  volumes:
+    - ./web/node_app/app/:/usr/app/app/
+  ports:
+    - 1337:1337
+  links:
+    - "db"
+db:
+  container_name: ctf_db
+  build: ./database/
+  ports:
+    - 5432

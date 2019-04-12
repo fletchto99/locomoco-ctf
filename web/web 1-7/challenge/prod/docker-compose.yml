@@ -1,0 +1,12 @@
+web:
+  container_name: ctf_web
+  image: ctf_web
+  ports:
+    - 1337:1337
+  links:
+    - "db"
+db:
+  container_name: ctf_db
+  image: ctf_db
+  ports:
+    - 5432

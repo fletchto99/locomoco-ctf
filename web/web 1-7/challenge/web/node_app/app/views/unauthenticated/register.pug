@@ -1,0 +1,39 @@
+extends ../layout_reg
+
+append content
+    if error
+        h1=error
+    form(name="register", method="post")
+        div.form-group
+            div.input
+                label(for="first_name") First name
+                input.form-control(type="text", name="first_name", id="first_name")
+        div.form-group
+            div.input
+                label(for="last_name") Last name
+                input.form-control(type="text", name="last_name", id="last_name")
+        div.form-group
+            div.input
+                label(for="email") Email
+                input.form-control(type="text", name="email", id="email")
+        div.form-group
+            div.input
+                label(for="username") Username
+                input.form-control(type="text", name="username", id="username")
+        div.form-group
+            div.input
+                label(for="password") Password
+                input.form-control(type="password", name="password", id="password")
+        div.form-group
+            div.input
+                label(for="confirm_password") Confirm Password
+                input.form-control(type="password", name="confirm_password", id="confirm_password")
+        div.form-group
+            div.input
+                label(for="employee_access_code") Employee Access Code (#[a(href="/forgot") Forgot your code?])
+                input.form-control(type="text", name="employee_access_code", id="employee_access_code")
+        div.row
+            div.col-sm-4
+                button.btn.btn-primary.btn-block.center-block(type="submit") Register
+            div.col-sm-4
+                    a.btn.btn-info.center-block(href="/") Back

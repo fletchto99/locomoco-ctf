@@ -1,0 +1,22 @@
+extends ../layout_auth
+
+append content
+    if message
+        p=message
+    h3 Message to the Admin
+    p All messages are instantly read by the administrator
+    form(name="message", method="post")
+        div.form-group
+            div.input
+                label(for="message_to") To (Admin users only):
+                input.form-control(type="text", name="message_to", id="message_to", value=current_to)
+        div.form-group
+            div.input
+                label(for="message") Message (now with HTML support)
+                textarea.form-control(name="message", id="message", style="min-height:250px;")= current_message
+        div.row
+            div.col-sm-2
+                button.btn.btn-primary(type="submit", name="send", value="Send") Send
+            div.col-sm-2
+                button.btn.btn-info(type="submit", name="preview", value="Preview") Preview
+            div.col-sm-8

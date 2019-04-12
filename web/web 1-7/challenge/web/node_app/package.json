@@ -1,0 +1,31 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Matt Langlois <fletchto99@gmail.com> (https://fletchto99.com)",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "contributors": [
+    {
+      "name": "Matt Langlois",
+      "email": "fletchto99@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-pg-simple": "^5.0.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "md5": "^2.2.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.9.0",
+    "promise": "^8.0.3",
+    "pug": "^2.0.3",
+    "pug-bootstrap": "0.0.15",
+    "puppeteer": "^1.14.0"
+  }
+}

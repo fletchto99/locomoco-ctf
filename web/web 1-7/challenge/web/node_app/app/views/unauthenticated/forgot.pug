@@ -1,0 +1,15 @@
+extends ../layout_reg
+
+append content
+    if code
+        h1=code
+        a(href="/register") Go back to Registration
+    else
+        if error
+            h1=error
+        form(name="login", method="post")
+            div.form-group
+                div.input
+                    label(for="code") Recovery Code (Given to you by HR)
+                    input.form-control(type="text", name="code", id="code", maxlength=10)
+            button.btn.btn-primary(type="submit") Recover
