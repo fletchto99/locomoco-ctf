@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Download that Flag</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/vendor/animate.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mouse0270-bootstrap-notify/3.1.5/bootstrap-notify.js"></script>
+        <script src="/vendor/filedownload.js"></script>
+        <script>
+            $(function() {
+                $("#download").click(function() {
+                    var file = "flag"
+                    var check = "c4c51fd91e87e1bfe35ef2ed2d5f675452874d5b56a7c67eba57a169e889ee26fe795ecff2f55fcca712c368bb7be0c6c35f71c0f303c9f79b6029c06c57833e"
+                    $.fileDownload("/api/download?file="+file+"&check="+check, {
+                        successCallback: function (url) {
+                            alert('test');
+                        },
+                        failCallback: function (html, url) {
+                            var error = JSON.parse(html.replace(/<\/?[^>]+>/gi, ''));
+                            $.notify({
+                                message: error.error
+                            },{
+                                type: 'danger',
+                                    animate: {
+                                        enter: 'animated fadeInDown',
+                                        exit: 'animated fadeOutUp'
+                                    },
+                            });
+                        }
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <button type="submit" id="download" style="width:300px; height: 80px;" class="btn btn-danger centered">Download Flag</button>
+    </body>
+</html>
