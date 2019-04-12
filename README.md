@@ -4,6 +4,7 @@ Locomocosec CTF
 ## Web
 [Secure Employee Portal](https://github.com/fletchto99/locomoco-ctf/tree/master/web/web%201-7)
 [Lottery](https://github.com/fletchto99/locomoco-ctf/tree/master/web/web%208)
+[The new web](https://github.com/fletchto99/locomoco-ctf/tree/master/web/web%209)
 
 ## Recon
 
