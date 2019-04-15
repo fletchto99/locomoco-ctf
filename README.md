@@ -10,6 +10,7 @@ Locomocosec CTF
 ## Reverse
 
 [Get that Flag](https://github.com/fletchto99/locomoco-ctf/tree/master/reverse/reverse%201)
+[Hurry Up](https://github.com/fletchto99/locomoco-ctf/tree/master/reverse/reverse%202)
 
 ## Web
 [Secure Employee Portal](https://github.com/fletchto99/locomoco-ctf/tree/master/web/web%201-7)
