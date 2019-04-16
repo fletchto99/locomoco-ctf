@@ -1,0 +1,17 @@
+extends ../layout_reg
+
+append content
+    h2.hidden(id="thanks")="Thank you for your feedback!"
+    form(name="comment_form" id="comment_form")
+        h3="Feel free to leave a review, all feedback is taken seriously"
+        div.form-group
+            div.input
+                label(for="name") name
+                input.form-control(type="text", name="name", id="name")
+        div.form-group
+            div.input
+                label(for="comment") Comment
+                textarea.form-control(name="comment", id="comment", style="min-height:250px;")
+        div.row
+            div.col-sm-4
+                button.btn.btn-primary.btn-block.center-block(type="submit", id="submit_comment") Submit

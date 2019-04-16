@@ -1,0 +1,14 @@
+extends ../layout_auth
+
+append content
+    h1 flag{base64_isnt_encryption}
+    h4 Also please never use auth basic :(
+    h4
+      a(href="https://blog.fletchto99.com/2016/september/asus-disclosure/") This was one of the first vulns I found
+    for comment in comments
+      div
+        span="Name: "
+        span=comment.name
+      div
+        span="Comment: "
+        span=comment.comment

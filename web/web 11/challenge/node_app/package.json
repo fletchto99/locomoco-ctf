@@ -1,0 +1,23 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Matt Langlois <fletchto99@gmail.com> (https://fletchto99.com)",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "contributors": [
+    {
+      "name": "Matt Langlois",
+      "email": "fletchto99@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-basic-auth": "^1.1.6",
+    "pug": "^2.0.3"
+  }
+}
