@@ -1,6 +1,12 @@
 Locomocosec CTF
 ---
 
+## Analysis
+
+[What a view](https://github.com/fletchto99/locomoco-ctf/tree/master/analysis/analysis%201)
+
+[And lots of..](https://github.com/fletchto99/locomoco-ctf/tree/master/analysis/analysis%202)
+
 ## Recon
 
 [Who owns this site?](https://github.com/fletchto99/locomoco-ctf/tree/master/recon/recon%201)
