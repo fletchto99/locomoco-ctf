@@ -9,6 +9,7 @@ flag{B1naRy_analys1s_ftw}
 open in r2
 aaa //analyze
 s main // seek to main
+s <addr> //seek to address
 pdf // view instructions
 
 ...
