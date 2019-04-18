@@ -7,6 +7,20 @@ Locomocosec CTF
 
 [And lots of..](https://github.com/fletchto99/locomoco-ctf/tree/master/analysis/analysis%202)
 
+[Music to my ears](https://github.com/fletchto99/locomoco-ctf/tree/master/analysis/analysis%203)
+
+## Network
+
+[Can you hear me?](https://github.com/fletchto99/locomoco-ctf/tree/master/network/network%201)
+
+[Hello middle man](https://github.com/fletchto99/locomoco-ctf/tree/master/network/network%202)
+
+[Top secret convos](https://github.com/fletchto99/locomoco-ctf/tree/master/network/network%203)
+
+[Files... Files... Everywhere](https://github.com/fletchto99/locomoco-ctf/tree/master/network/network%204)
+
+[Encryption master](https://github.com/fletchto99/locomoco-ctf/tree/master/network/network%205)
+
 ## Recon
 
 [Who owns this site?](https://github.com/fletchto99/locomoco-ctf/tree/master/recon/recon%201)
